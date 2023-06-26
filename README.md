@@ -3,9 +3,7 @@
 ## Goal of the project
 It is a simple project to showcase my basic understanding of Python. 
 ## What the project does
-Converts PDF file into images. An output directory with images will be created at the PDF's location.
-Asks the user for:
-1. Name for all files and an output directory, which will be created in the PDF file location.
-2. PDF file location
-
-Each filename for created images will e distinguished by a corresponding number.
+Cleans up filenames by replacing certain positions or substrings in the name based on the criteria provided in "symbols_to_replace.json".
+Feel free to adjust the content of "symbols_to_replace.json" to your heart content.
+## Requirements
+Script is compatible with Python 3 and does not require any additional libraries.
